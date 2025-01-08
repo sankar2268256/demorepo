@@ -2,7 +2,7 @@
  - hosts: all
    become: true  
    tasks: 
-     - name: install tree on required servers
+     - name: install treee on required servers
        yum:
          name: tree
          state: installed
